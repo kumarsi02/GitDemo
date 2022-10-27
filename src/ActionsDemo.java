@@ -15,6 +15,7 @@ public class ActionsDemo {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://www.amazon.com/");
 		System.out.println("newly committed line");
+		System.out.println("in newbranch");
 		driver.manage().window().maximize();
 		Actions a = new Actions(driver);
 		
