@@ -19,7 +19,7 @@ public class ActionsDemo {
 		System.out.println("in newbranchVabcd1234");
 		driver.manage().window().maximize();
 		Actions a = new Actions(driver);
-		
+		System.out.println("in testng");
 		//type in caps
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("caps").doubleClick().build().perform();
 		//move mouse cursor to an element
