@@ -17,7 +17,6 @@ public class ActionsDemo {
 		System.out.println("newly committed line");
 		System.out.println("in newbranch");
 		System.out.println("in newbranchVabcd");
-		
 		driver.manage().window().maximize();
 		Actions a = new Actions(driver);
 		
