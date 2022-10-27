@@ -14,6 +14,7 @@ public class ActionsDemo {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://www.amazon.com/");
+		System.out.println("newly committed line");
 		driver.manage().window().maximize();
 		Actions a = new Actions(driver);
 		
