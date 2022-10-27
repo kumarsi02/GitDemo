@@ -16,7 +16,7 @@ public class ActionsDemo {
 		driver.get("https://www.amazon.com/");
 		System.out.println("newly committed line");
 		System.out.println("in newbranch");
-		System.out.println("in newbranchVabcd");
+		System.out.println("in newbranchVabcd1234");
 		driver.manage().window().maximize();
 		Actions a = new Actions(driver);
 		
@@ -25,7 +25,7 @@ public class ActionsDemo {
 		//move mouse cursor to an element
 		a.moveToElement(driver.findElement(By.id("nav-link-accountList-nav-line-1"))).build().perform();
 		
-		
+		System.out.println("in newbranchwqwqwqwqw");
 	}
 
 }
