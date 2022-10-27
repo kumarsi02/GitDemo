@@ -16,7 +16,7 @@ public class ActionsDemo {
 		driver.get("https://www.amazon.com/");
 		System.out.println("newly committed line");
 		System.out.println("in newbranch");
-		System.out.println("in newbranchV1.0");
+		System.out.println("in newbranchVabcd");
 		driver.manage().window().maximize();
 		Actions a = new Actions(driver);
 		
