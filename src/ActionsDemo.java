@@ -18,6 +18,7 @@ public class ActionsDemo {
 		System.out.println("in newbranch");
 		System.out.println("in newbranch1 change");
 		System.out.println("new added line");
+
 		driver.manage().window().maximize();
 		Actions a = new Actions(driver);
 		System.out.println("in testng");
@@ -27,6 +28,7 @@ public class ActionsDemo {
 		a.moveToElement(driver.findElement(By.id("nav-link-accountList-nav-line-1"))).build().perform();
 		
 		System.out.println("in newbranchwqwqwqwqw");
+
 	}
 
 }
