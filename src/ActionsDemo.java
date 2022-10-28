@@ -18,7 +18,6 @@ public class ActionsDemo {
 		System.out.println("in newbranch");
 		System.out.println("in newbranch1 change");
 		System.out.println("new added line");
-
 		driver.manage().window().maximize();
 		Actions a = new Actions(driver);
 		System.out.println("in testng");
