@@ -30,6 +30,7 @@ public class SSLcheck {
 		System.out.println(driver.getTitle());
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src,new File("C:\\Sidharth\\Screenshot"));
+		//This is a comment for git test
 	}
 
 }
