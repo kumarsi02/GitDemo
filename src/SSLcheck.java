@@ -31,6 +31,7 @@ public class SSLcheck {
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src,new File("C:\\Sidharth\\Screenshot"));
 		//This is a comment for git test
+		//This is to test March 18th second commit
 	}
 
 }
