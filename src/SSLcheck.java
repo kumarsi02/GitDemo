@@ -36,4 +36,5 @@ public class SSLcheck {
 		//This is a test comment from A
 		// This is a test comment from B branch mar182023
 		// This is a test comment from A branch mar182023
+		// This is a test comment from B branch mar182023 - merge conflict
 }
